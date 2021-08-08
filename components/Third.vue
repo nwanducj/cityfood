@@ -25,7 +25,6 @@ export default {
 <style lang="scss" scoped>
 .c {
   padding: 20px;
-  //   display: flex;
   align-items: center;
   &__body {
     padding: 0 0 20px 0;

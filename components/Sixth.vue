@@ -78,5 +78,13 @@ img {
   }
 }
 @media only screen and (min-width: 960px) {
+  .f {
+    padding: 60px 20px;
+    width: 80%;
+    margin: 0% auto;
+  }
+  .holder {
+    width: 50%;
+  }
 }
 </style>

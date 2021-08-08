@@ -53,7 +53,7 @@ export default {
   }
   .photo {
     display: block;
-    width: 18%;
+    width: 80%;
     order: 2;
   }
   .text {
@@ -71,6 +71,7 @@ export default {
   }
   .photo {
     display: block;
+    width: 100%;
   }
   .text {
     order: 2;

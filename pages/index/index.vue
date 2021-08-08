@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app-bar color="white" fixed app>
-      <div class="d-flex align-center">
+      <div class="d-flex align-center ml-sm-16">
         <img class="icon" src="~assets/img/cityfoodpng 1.png" />
         <img class="cityfood" src="~assets/img/cityfoodpng 2.png" />
       </div>
@@ -146,6 +146,9 @@ footer {
 @media only screen and (min-width: 960px) {
   .footer {
     width: 80%;
+  }
+  .full {
+    height: 100vh;
   }
 }
 </style>
