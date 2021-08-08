@@ -10,7 +10,7 @@
         school or even bus station. <span class="order">Order Now!</span>
       </div>
       <div class="buttons">
-        <div class="button d-flex align-center">
+        <div class="button d-flex align-center elevation-1">
           <div>
             <svg
               width="19"
@@ -49,7 +49,7 @@
             <span class="font-weight-bold">Google Play</span>
           </div>
         </div>
-        <div class="button d-flex align-center">
+        <div class="button d-flex align-center elevation-1">
           <div>
             <svg
               width="28"
@@ -123,7 +123,7 @@ img {
   border-radius: 10px;
   width: 70%;
   height: 48px;
-  line-height: 1rem;
+  line-height: 1.2rem;
   margin: 10px 0;
   justify-content: center;
 }

@@ -1,5 +1,5 @@
 <template>
-  <section class="full e d-sm-flex align-center">
+  <section class="full e">
     <div class="text">
       <div class="download my-2 mb-8">
         Download Our App today and start experiencing prompt food delivery
@@ -24,30 +24,36 @@ export default {
 <style lang="scss" scoped>
 .e {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .download {
   font-size: 1.4rem;
   font-weight: bold;
 }
 .photo {
-  width: 80%;
+  width: 350px;
   order: 1;
   margin: auto auto;
   display: block;
 }
 .text {
   order: 2;
-  margin: 10% 0 0 0;
-  width: 80%;
+  margin: 0% 0 0 0;
+  width: 100%;
 }
 .qr {
   width: 100px;
   height: 100px;
 }
 @media only screen and (min-width: 600px) and (max-width: 960px) {
+  .e {
+    flex-direction: row;
+  }
   .photo {
     display: block;
-    width: 100%;
+    width: 18%;
     order: 2;
   }
   .text {
@@ -60,6 +66,7 @@ export default {
 @media only screen and (min-width: 960px) {
   .e {
     //   padding: 20px;
+    flex-direction: row;
     margin: 60px;
   }
   .photo {
@@ -71,7 +78,6 @@ export default {
     width: 50%;
     display: flex;
     flex-direction: column;
-    // justify-content: flex-start;
     align-items: flex-start;
   }
 }
