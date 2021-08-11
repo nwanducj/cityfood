@@ -138,12 +138,12 @@ footer {
 .nav__text:hover {
   color: red;
 }
-@media only screen and (min-width: 600px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .full {
     height: 100vh;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 992px) {
   .footer {
     width: 80%;
   }

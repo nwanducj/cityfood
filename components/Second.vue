@@ -1,7 +1,7 @@
 <template>
   <section class="b mx-auto">
     <div class="text-center text__title my-4">How to Order</div>
-    <v-row>
+    <v-row justify="center">
       <v-col cols="12" sm="6" md="4" lg="4" align="center" justify="center">
         <div class="card">
           <div class="card__photo">
@@ -4800,12 +4800,12 @@ export default {
   color: $secondary;
   font-weight: bold;
 }
-@media only screen and (min-width: 600px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .b {
     width: 80%;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 992px) {
   .b {
     width: 60%;
   }

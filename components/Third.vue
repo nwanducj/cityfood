@@ -43,7 +43,7 @@ img {
   width: 100%;
   order: 1;
 }
-@media only screen and (min-width: 600px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .c {
     padding: 60px;
     display: flex;
@@ -61,7 +61,7 @@ img {
     float: right;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 992px) {
   .c {
     padding: 60px;
     display: flex;

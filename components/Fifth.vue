@@ -23,10 +23,12 @@ export default {
 </script>
 <style lang="scss" scoped>
 .e {
+  // background-color: red;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .download {
   font-size: 1.4rem;
@@ -34,12 +36,12 @@ export default {
 }
 .photo {
   width: 350px;
-  order: 1;
+  // order: 1;
   margin: auto auto;
-  display: block;
+  // display: none;
 }
 .text {
-  order: 2;
+  // order: 2;
   margin: 0% 0 0 0;
   width: 100%;
 }
@@ -47,23 +49,23 @@ export default {
   width: 100px;
   height: 100px;
 }
-@media only screen and (min-width: 600px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .e {
     flex-direction: row;
   }
   .photo {
     display: block;
     width: 80%;
-    order: 2;
+    order: 1;
   }
   .text {
     background-color: white;
-    order: 1;
+    order: 2;
     margin: 0 0 0 0;
     width: 100%;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 992px) {
   .e {
     //   padding: 20px;
     flex-direction: row;
@@ -72,6 +74,7 @@ export default {
   .photo {
     display: block;
     width: 100%;
+    order: 1;
   }
   .text {
     order: 2;

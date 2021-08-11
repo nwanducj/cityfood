@@ -102,14 +102,14 @@ img {
   color: $secondary;
   font-weight: bold;
 }
-@media only screen and (min-width: 600px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .d {
     padding: 40px 20px;
     width: 90%;
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 992px) {
   .d {
     padding: 40px 20px;
     width: 80%;

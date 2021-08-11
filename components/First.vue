@@ -98,6 +98,7 @@ img {
 .main {
   width: 100%;
   font-family: "Josefin Sans", sans-serif;
+  margin: 10% 0 0 0;
   &__title {
     font-size: 3rem;
     line-height: 3.2rem;
@@ -128,7 +129,7 @@ img {
   justify-content: center;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .main {
     width: 70%;
   }
@@ -143,7 +144,7 @@ img {
     display: none;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 992px) {
   .main {
     width: 40%;
     padding: 0 40px;

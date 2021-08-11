@@ -67,7 +67,7 @@ img {
 .v-btn {
   height: 150px;
 }
-@media only screen and (min-width: 600px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .f {
     padding: 60px 20px;
     width: 80%;
@@ -77,7 +77,7 @@ img {
     width: 50%;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 992px) {
   .f {
     padding: 60px 20px;
     width: 80%;
