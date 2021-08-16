@@ -6,7 +6,7 @@
         <img class="cityfood" src="~assets/img/cityfoodpng 2.png" />
       </div>
       <div class="head__privacy d-flex align-items-center pa-2">
-        <div class="ml-2 ml-sm-16">
+        <div @click="$router.go(-1)" class="ml-2 ml-sm-16">
           <svg
             width="23"
             height="20"
@@ -70,19 +70,20 @@
     </div>
     <div class="privacy">
       <div class="d-flex">
-        <img class="privacy__icon" src="~assets/img/Terms icon.png" />
+        <img class="privacy__icon" src="~assets/img/Terms Icon.png" />
       </div>
       <div class="line"></div>
       <div class="privacy__text">
-        AGREEMENT TO TERMS These Terms of Service constitute a legally binding
-        agreement made between you, whether personally or on behalf of an entity
-        (“you”) and CityFood ("Company", “we”, “us”, or “our”), concerning your
-        access to and use of the company’s website as well as any other media
-        form, media channel, mobile website or mobile application related,
-        linked, or otherwise connected thereto (collectively, the “Site”). You
-        agree that by accessing the Site, you have read, understood, and agreed
-        to be bound by all of these Terms of Use.
-        <br /><br />
+        AGREEMENT TO TERMS
+        <br />
+        These Terms of Service constitute a legally binding agreement made
+        between you, whether personally or on behalf of an entity (“you”) and
+        CityFood ("Company", “we”, “us”, or “our”), concerning your access to
+        and use of the company’s website as well as any other media form, media
+        channel, mobile website or mobile application related, linked, or
+        otherwise connected thereto (collectively, the “Site”). You agree that
+        by accessing the Site, you have read, understood, and agreed to be bound
+        by all of these Terms of Use. <br /><br />
         IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE
         EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE
         IMMEDIATELY.
