@@ -71,8 +71,8 @@
         </div>
       </div>
     </div>
-    <div class="image">
-      <img src="~assets/img/phone-below.png" alt="" class="" />
+    <div class="image d-flex justify-center">
+      <img src="~assets/img/fone.png" alt="" class="mx-auto" />
     </div>
   </section>
 </template>
@@ -108,7 +108,7 @@ img {
     color: $primary;
   }
   &__text {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 15px 0;
   }
   .order {
@@ -142,6 +142,7 @@ img {
   }
   img {
     display: none;
+    width: 50%;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -158,6 +159,8 @@ img {
   }
   img {
     display: block;
+    width: 80%;
+    height: 80%;
   }
 }
 </style>

@@ -35,13 +35,14 @@
     <Fourth />
     <Fifth />
     <Sixth />
-    <footer>
+    <Footer />
+    <!-- <footer>
       <div class="footer mx-auto pa-8">
         <v-row>
           <v-col cols="6" sm="4">
             <div>
               <div class="title">Resources</div>
-              <div>Privacy policy</div>
+              <div @click="$router.push('legal/privacy-policy')">Privacy policy</div>
               <div>Terms of service</div>
             </div>
           </v-col>
@@ -78,8 +79,11 @@
           </v-col>
         </v-row>
       </div>
-      <div class="text-center py-8">CityFood Copyright © 2020</div>
-    </footer>
+      <div class="text-center py-8">CityFood, <br />
+      Enugu City, Enugu 400210, Nigeria <br />
+      Copyright@2021
+        </div>
+    </footer> -->
   </div>
 </template>
 <script>

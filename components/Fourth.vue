@@ -5,12 +5,29 @@
       <v-col cols="12" sm="6" md="6" lg="6" align="center" justify="center">
         <div class="card">
           <div class="card__photo">
-            <img src="~assets/img/food.png" alt="" />
+            <img src="~assets/img/shopping.png" alt="" />
           </div>
           <div class="px-4">
             <div class="d-flex justify-space-between my-2">
-              <div class="card__name">Kilimanjaro</div>
-              <v-rating dense size="18" color="secondary" readonly></v-rating>
+              <div class="card__name">ShopRite</div>
+              <v-rating v-model="value" dense size="18" color="secondary" readonly></v-rating>
+            </div>
+            <div class="card__location d-flex align-items my-2">
+              <v-icon size="18" color="black">mdi-map-marker-outline</v-icon>5,
+              Independence Layout Enugu
+            </div>
+          </div>
+        </div>
+      </v-col>
+      <v-col cols="12" sm="6" md="6" lg="6" align="center" justify="center">
+        <div class="card">
+          <div class="card__photo">
+            <img src="~assets/img/shawarma.png" alt="" />
+          </div>
+          <div class="px-4">
+            <div class="d-flex justify-space-between my-2">
+              <div class="card__name">Handes Kitchen</div>
+              <v-rating v-model="value" dense size="18" readonly color="secondary"></v-rating>
             </div>
             <div class="card__location d-flex align-items my-2">
               <v-icon size="18" color="black">mdi-map-marker-outline</v-icon>5,
@@ -26,25 +43,8 @@
           </div>
           <div class="px-4">
             <div class="d-flex justify-space-between my-2">
-              <div class="card__name">Kilimanjaro</div>
-              <v-rating dense size="18" readonly color="secondary"></v-rating>
-            </div>
-            <div class="card__location d-flex align-items my-2">
-              <v-icon size="18" color="black">mdi-map-marker-outline</v-icon>5,
-              Independence Layout Enugu
-            </div>
-          </div>
-        </div>
-      </v-col>
-      <v-col cols="12" sm="6" md="6" lg="6" align="center" justify="center">
-        <div class="card">
-          <div class="card__photo">
-            <img src="~assets/img/food.png" alt="" />
-          </div>
-          <div class="px-4">
-            <div class="d-flex justify-space-between my-2">
-              <div class="card__name">Kilimanjaro</div>
-              <v-rating dense size="18" readonly color="secondary"></v-rating>
+              <div class="card__name">Licks & Chops</div>
+              <v-rating v-model="value" dense size="18" readonly color="secondary"></v-rating>
             </div>
             <div class="card__location d-flex align-items my-2">
               <v-icon size="16" color="black">mdi-map-marker-outline</v-icon>5,
@@ -56,12 +56,12 @@
       <v-col cols="12" sm="6" md="6" lg="6" align="center" justify="center">
         <div class="card">
           <div class="card__photo">
-            <img src="~assets/img/food.png" alt="" />
+            <img src="~assets/img/egusi.png" alt="" />
           </div>
           <div class="px-4">
             <div class="d-flex justify-space-between my-2">
               <div class="card__name">Kilimanjaro</div>
-              <v-rating dense size="18" readonly color="secondary"></v-rating>
+              <v-rating v-model="value" dense size="18" readonly color="secondary"></v-rating>
             </div>
             <div class="card__location d-flex align-items my-2">
               <v-icon size="18" color="black">mdi-map-marker-outline</v-icon>5,
@@ -76,6 +76,11 @@
 <script>
 export default {
   name: "fourth",
+  data(){
+    return {
+      value:4
+    }
+  }
 };
 </script>
 <style lang="scss" scoped>

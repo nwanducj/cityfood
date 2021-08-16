@@ -3,13 +3,9 @@
     <div class="c__text">
       <div class="c__title">Eat at your Convenience</div>
       <div class="c__body">
-        Are you searching for Qr Code png images or vector? Choose from 2400+ Qr
-        Code graphic resources and download in the form of PNG, EPS, AI or PSD.
-        Choose from 2400+ Qr Code graphic resources and download in the form of
-        PNG, EPS, AI or PSD. Qr Code graphic resources and download in the form
-        of PNG, EPS, AI or PSD. Qr Code graphic resources and download in the
-        form of PNG, EPS, AI or PSD. Qr Code graphic resources and download in
-        the form of PNG, EPS, AI or PSD.
+        We are concerned abiut your convenience in getting your favourite meals and dishes from your ‘heartbeat’ restaurants close to you.
+        You get on work, class, studies, workout, rest or even laundry, while we get on fixing and delivering your preference for breakfast, lunch and dinner.
+        Easy to use and convenient for you. your family and friends. Try and see how we at CityFood would make you happy.
       </div>
     </div>
     <div class="c__photo">

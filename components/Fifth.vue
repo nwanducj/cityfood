@@ -8,9 +8,13 @@
       <div class="d-flex text-caption align-center">
         <div><img src="~assets/img/qr.png" alt="" class="qr" /></div>
         <div class="ml-4">
+          <div>
           Use your Phone camera to scan and download City Food App <br />
-          <span>Available on <span>ios</span> and <span>Android</span></span>
-        </div>
+          </div>
+          <div class="mt-4">
+            <span>Available on <span class="secondary--text font-weight-bold">iOS</span> and <span class="secondary--text font-weight-bold">Android</span></span>
+          </div>
+          </div>
       </div>
     </div>
     <img src="~assets/img/phone-below.png" alt="" class="photo" />
