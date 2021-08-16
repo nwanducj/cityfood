@@ -235,19 +235,19 @@ export default {
   }
 }
 @media only screen and (min-width: 992px) {
-}
-.privacy {
-  width: 70%;
-  margin: 150px auto;
-  &__text {
-    margin: 70px 0 0 0;
-    text-align: justify;
-  }
-  &__icon {
-    width: 20%;
-    height: 20%;
-    margin: 0 auto;
-    display: inline-block;
+  .privacy {
+    width: 70%;
+    margin: 150px auto;
+    &__text {
+      margin: 70px 0 0 0;
+      text-align: justify;
+    }
+    &__icon {
+      width: 20%;
+      height: 20%;
+      margin: 0 auto;
+      display: inline-block;
+    }
   }
 }
 </style>
