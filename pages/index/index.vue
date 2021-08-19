@@ -9,81 +9,33 @@
         class="d-none d-sm-flex text-center justify-center"
         style="width: 80%"
       >
-        <div class="mx-8">About</div>
-        <div class="mx-8">Contact</div>
-        <div class="mx-8">Partnership</div>
+        <div class="mx-8" @click="gotoThird">About</div>
+        <div class="mx-8" @click="gotoSixith">Contact</div>
+        <div class="mx-8" @click="gotoSixith">Partnership</div>
       </div>
       <v-spacer class="d-sm-none"></v-spacer>
       <v-btn icon class="d-sm-none mr-2" @click="drawer = !drawer"
         ><v-icon size="30">mdi-menu</v-icon></v-btn
       >
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" absolute temporary>
+    <v-navigation-drawer v-model="drawer" absolute>
       <div class="nav__item">
         <div class="py-4">
           <img class="icon" src="~assets/img/cityfoodpng 1.png" />
           <img class="cityfood" src="~assets/img/cityfoodpng 2.png" />
         </div>
-        <div class="nav__text">About</div>
-        <div class="nav__text">Contact</div>
-        <div class="nav__text">Partnership</div>
+        <div class="nav__text" @click="gotoThird">About</div>
+        <div class="nav__text" @click="gotoSixith">Contact</div>
+        <div class="nav__text" @click="gotoSixith">Partnership</div>
       </div>
     </v-navigation-drawer>
     <First />
     <Second />
-    <Third />
+    <Third id="myRef3" />
     <Fourth />
     <Fifth />
-    <Sixth />
+    <Sixth id="myRef" />
     <Footer />
-    <!-- <footer>
-      <div class="footer mx-auto pa-8">
-        <v-row>
-          <v-col cols="6" sm="4">
-            <div>
-              <div class="title">Resources</div>
-              <div @click="$router.push('legal/privacy-policy')">Privacy policy</div>
-              <div>Terms of service</div>
-            </div>
-          </v-col>
-          <v-col cols="6" sm="4">
-            <div>
-              <div class="title">Discover</div>
-              <div>For Vendors</div>
-              <div>Partnerships</div>
-            </div>
-          </v-col>
-          <v-col cols="6" sm="4">
-            <div>
-              <div class="title">Follow us</div>
-              <div class="d-flex align-items">
-                <v-icon color="white" size="18" class="mr-2"
-                  >mdi-facebook</v-icon
-                >Facebook
-              </div>
-              <div>
-                <v-icon color="white" size="18" class="mr-2">mdi-twitter</v-icon
-                >Twitter
-              </div>
-              <div>
-                <v-icon color="white" size="18" class="mr-2"
-                  >mdi-linkedin</v-icon
-                >LinkedIn
-              </div>
-              <div>
-                <v-icon color="white" size="18" class="mr-2"
-                  >mdi-instagram</v-icon
-                >Instagram
-              </div>
-            </div>
-          </v-col>
-        </v-row>
-      </div>
-      <div class="text-center py-8">CityFood, <br />
-      Enugu City, Enugu 400210, Nigeria <br />
-      Copyright@2021
-        </div>
-    </footer> -->
   </div>
 </template>
 <script>
@@ -92,7 +44,18 @@ export default {
   data() {
     return {
       drawer: false,
+      myRef: "contact",
     };
+  },
+  methods: {
+    gotoSixith() {
+      document.getElementById("myRef").scrollIntoView();
+      this.drawer = false;
+    },
+    gotoThird() {
+      document.getElementById("myRef3").scrollIntoView();
+      this.drawer = false;
+    },
   },
   head() {
     return {

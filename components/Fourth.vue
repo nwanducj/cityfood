@@ -10,7 +10,13 @@
           <div class="px-4">
             <div class="d-flex justify-space-between my-2">
               <div class="card__name">ShopRite</div>
-              <v-rating v-model="value" dense size="18" color="secondary" readonly></v-rating>
+              <v-rating
+                v-model="value"
+                dense
+                size="18"
+                color="secondary"
+                readonly
+              ></v-rating>
             </div>
             <div class="card__location d-flex align-items my-2">
               <v-icon size="18" color="black">mdi-map-marker-outline</v-icon>5,
@@ -27,7 +33,13 @@
           <div class="px-4">
             <div class="d-flex justify-space-between my-2">
               <div class="card__name">Handes Kitchen</div>
-              <v-rating v-model="value" dense size="18" readonly color="secondary"></v-rating>
+              <v-rating
+                v-model="value"
+                dense
+                size="18"
+                readonly
+                color="secondary"
+              ></v-rating>
             </div>
             <div class="card__location d-flex align-items my-2">
               <v-icon size="18" color="black">mdi-map-marker-outline</v-icon>5,
@@ -44,7 +56,13 @@
           <div class="px-4">
             <div class="d-flex justify-space-between my-2">
               <div class="card__name">Licks & Chops</div>
-              <v-rating v-model="value" dense size="18" readonly color="secondary"></v-rating>
+              <v-rating
+                v-model="value"
+                dense
+                size="18"
+                readonly
+                color="secondary"
+              ></v-rating>
             </div>
             <div class="card__location d-flex align-items my-2">
               <v-icon size="16" color="black">mdi-map-marker-outline</v-icon>5,
@@ -61,7 +79,13 @@
           <div class="px-4">
             <div class="d-flex justify-space-between my-2">
               <div class="card__name">Kilimanjaro</div>
-              <v-rating v-model="value" dense size="18" readonly color="secondary"></v-rating>
+              <v-rating
+                v-model="value"
+                dense
+                size="18"
+                readonly
+                color="secondary"
+              ></v-rating>
             </div>
             <div class="card__location d-flex align-items my-2">
               <v-icon size="18" color="black">mdi-map-marker-outline</v-icon>5,
@@ -76,16 +100,16 @@
 <script>
 export default {
   name: "fourth",
-  data(){
+  data() {
     return {
-      value:4
-    }
-  }
+      value: 4,
+    };
+  },
 };
 </script>
 <style lang="scss" scoped>
 .d {
-  padding: 40px 20px;
+  padding: 40px 20px 0 20px;
   width: 90%;
   margin: 0 auto;
 }

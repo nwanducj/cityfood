@@ -44,8 +44,8 @@
               </defs>
             </svg>
           </div>
-          <div class="ml-4">
-            Get in on<br />
+          <div class="ml-4" style="font-size: 0.8rem">
+            Get IN ON<br />
             <span class="font-weight-bold">Google Play</span>
           </div>
         </div>
@@ -65,7 +65,7 @@
             </svg>
           </div>
           <div class="ml-4">
-            Download on<br />
+            Download on the<br />
             <span class="font-weight-bold">Apple Store</span>
           </div>
         </div>
@@ -154,7 +154,7 @@ img {
     display: flex;
   }
   .button {
-    width: 195px;
+    width: 210px;
     margin: 0 10px 0 0;
   }
   img {

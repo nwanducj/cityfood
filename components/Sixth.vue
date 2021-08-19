@@ -1,11 +1,11 @@
 <template>
-  <section class="full f d-flex align-center justify-center">
+  <section class="full f d-flex align-center justify-center" ref="myRef">
     <div class="holder">
       <div class="connect">Connect With Us</div>
       <div class="pr-8">
         If you require further assistance or would like to reach us for general
         inquiries, please call us on
-        <span class="secondary--text">+234814050211</span> or email
+        <span class="secondary--text">+2348140150211</span> or email
         <span class="secondary--text">info@cityfood.com</span>
       </div>
       <div class="d-flex my-4">
@@ -42,6 +42,7 @@
 <script>
 export default {
   name: "sixth",
+  props: ["myRef"],
 };
 </script>
 <style lang="scss" scoped>
@@ -51,8 +52,7 @@ export default {
 }
 .f {
   padding: 60px 20px;
-  // width: 80%;
-  // margin: 0% auto;
+  background-color: #1eb36d14;
 }
 .newsletter {
   font-size: 1.4rem;
@@ -69,8 +69,7 @@ img {
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .f {
-    padding: 60px 20px;
-    width: 80%;
+    padding: 60px 10%;
     margin: 0% auto;
   }
   .holder {
@@ -79,8 +78,7 @@ img {
 }
 @media only screen and (min-width: 992px) {
   .f {
-    padding: 60px 20px;
-    width: 80%;
+    padding: 60px 10%;
     margin: 0% auto;
   }
   .holder {
