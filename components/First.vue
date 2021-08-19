@@ -45,7 +45,7 @@
             </svg>
           </div>
           <div class="ml-4" style="font-size: 0.8rem">
-            Get IN ON<br />
+            GET IN ON<br />
             <span class="font-weight-bold">Google Play</span>
           </div>
         </div>
