@@ -18,7 +18,7 @@
         ><v-icon size="30">mdi-menu</v-icon></v-btn
       >
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" absolute>
+    <v-navigation-drawer v-model="drawer" absolute temporary>
       <div class="nav__item">
         <div class="py-4">
           <img class="icon" src="~assets/img/cityfoodpng 1.png" />
