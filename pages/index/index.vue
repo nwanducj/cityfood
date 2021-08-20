@@ -18,16 +18,30 @@
         ><v-icon size="30">mdi-menu</v-icon></v-btn
       >
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" absolute temporary>
+    <v-navigation-drawer v-model="drawer" fixed temporary>
       <div class="nav__item">
         <div class="py-4">
           <img class="icon" src="~assets/img/cityfoodpng 1.png" />
           <img class="cityfood" src="~assets/img/cityfoodpng 2.png" />
         </div>
-        <div class="nav__text" @click="gotoThird">About</div>
-        <div class="nav__text" @click="gotoSixith">Contact</div>
-        <div class="nav__text" @click="gotoSixith">Partnership</div>
       </div>
+      <v-list nav dense>
+        <v-list-item-group active-class="primary--text text--primary-4">
+          <v-list-item>
+            <v-list-item-title @click="gotoThird">About</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title @click="gotoSixith">Contact</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title @click="gotoSixith"
+              >Partnership</v-list-item-title
+            >
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
     </v-navigation-drawer>
     <First />
     <Second />
