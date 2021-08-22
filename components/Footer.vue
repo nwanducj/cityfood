@@ -5,8 +5,8 @@
         <v-col cols="6" sm="4">
           <div>
             <div class="title">Resources</div>
-            <div @click="$router.push('/legal')">Privacy policy</div>
-            <div @click="$router.push('/legal/terms-of-service')">
+            <div @click="$router.push('/privacy-policy')">Privacy policy</div>
+            <div @click="$router.push('/terms-of-service')">
               Terms of service
             </div>
           </div>
