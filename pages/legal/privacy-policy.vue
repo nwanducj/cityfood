@@ -81,24 +81,42 @@
         personal information and your right to privacy. If you have any
         questions or concerns about this privacy notice or our practices with
         regard to your personal information, please contact us at
-        info.cityfood@gmail.com.
+        <a>info.cityfood@gmail.com.</a>
         <br />
         <br />
         <br />
         This privacy notice describes how we might use your information if you:
         <br />
-        Visit our website at www.cityfood.ng
+        <ul>
+          <li>Visit our website at www.cityfood.ng</li>
+          <br />
+          <li>Download and use our mobile application — CityFood</li>
+          <br />
+          <li>
+            Engage with us in other related ways ― including any sales,
+            marketing, or events.
+          </li>
+        </ul>
+        <br /><br />
+        In this privacy notice, if we refer to:
         <br />
-        Download and use our mobile application — CityFood
         <br />
-        Engage with us in other related ways ― including any sales, marketing,
-        or events In this privacy notice, if we refer to: <br />
-        "Website," we are referring to any website of ours that links to this
-        policy <br />
-        "App," we are referring to any application of ours that link to this
-        policy, including any listed above <br />
-        "Services," we are referring to our Website, App, and other related
-        services, including any sales, marketing, or events
+        <ul>
+          <li>
+            "Website," we are referring to any website of ours that links to
+            this policy
+          </li>
+          <br />
+          <li>
+            "App," we are referring to any application of ours that link to this
+            policy, including any listed above
+          </li>
+          <br />
+          <li>
+            "Services," we are referring to our Website, App, and other related
+            services, including any sales, marketing, or events
+          </li>
+        </ul>
         <br />
         <br />
 
@@ -580,7 +598,7 @@
         to review, update, or delete your personal information, please submit a
         request form by clicking here.
       </div>
-      <div class="line"></div>
+      <div class="line mx-4"></div>
       <div class="text-center">
         <v-btn class="rounded-lg text-none" color="primary"
           >Download Privacy Policy</v-btn
@@ -599,7 +617,8 @@ export default {
 .line {
   border: 2px solid #bab9b9;
   border-radius: 40px;
-  margin: 30px 0;
+  margin: 30px 30px;
+  padding: 0px 10%;
 }
 .header {
   z-index: 2;
