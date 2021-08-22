@@ -70,11 +70,11 @@
         </div>
       </div>
     </div>
-    <div class="privacy">
-      <div class="d-flex">
+    <div class="">
+      <!-- <div class="privacy d-flex">
         <img class="privacy__icon" src="~assets/img/Privacy icon.png" />
       </div>
-      <div class="line"></div>
+      <div class="line privacy"></div> -->
       <div class="wrapper">
         <pdff
           v-for="i in 10"
@@ -84,8 +84,8 @@
           style="height: 100%"
         ></pdff>
       </div>
-      <div class="line"></div>
-      <div class="text-center">
+      <div class="line privacy"></div>
+      <div class="text-center privacy">
         <v-btn class="rounded-lg text-none" color="primary"
           >Download Privacy Policy</v-btn
         >
