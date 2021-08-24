@@ -45,7 +45,7 @@
                               src="~assets/img/qr.png"
                               alt=""
                               class="qr"
-                              style="display: inline-block"
+                              style="display: inline-block; width: 100%"
                             />
                           </div>
                           <div class="ml-4">
@@ -104,7 +104,7 @@ export default {
   width: 100%;
   margin: 0 auto;
   &__holder {
-    width: 70%;
+    width: 90%;
   }
 }
 .text {
