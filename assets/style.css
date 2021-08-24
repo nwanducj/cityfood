@@ -1998,26 +1998,26 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .hero-area-l-13 {
-  padding-top: 105px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
 @media (min-width: 480px) {
   .hero-area-l-13 {
-    padding-top: 110px;
+    padding-top: 80px;
   }
 }
 
 @media (min-width: 768px) {
   .hero-area-l-13 {
-    padding-top: 110px;
+    padding-top: 90px;
     padding-bottom: 55px;
   }
 }
 
 @media (min-width: 992px) {
   .hero-area-l-13 {
-    padding-top: 225px;
+    padding-top: 125px;
     padding-bottom: 0px;
   }
 }
