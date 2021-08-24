@@ -15,7 +15,7 @@
         style="height: 100%"
       ></pdf>
       <div class="line mx-4"></div>
-      <div class="text-center">
+      <div class="text-center my-8">
         <v-btn class="rounded-lg text-none my-2" color="primary"
           >Download Privacy Policy</v-btn
         >
@@ -62,7 +62,17 @@ export default {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  .wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 3%;
+  }
 }
 @media only screen and (min-width: 992px) {
+  .wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 0%;
+  }
 }
 </style>
