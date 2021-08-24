@@ -1,6 +1,16 @@
 <template>
   <div>
-    <v-app-bar color="white" fixed app>
+    <div
+      class="d-flex py-4 align-center"
+      style="
+        background-color: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        box-shadow: 1px 2px 4px #aaaaaa;
+      "
+    >
       <div class="d-flex align-center ml-sm-16">
         <img class="icon" src="~assets/img/cityfoodpng 1.png" />
         <img class="cityfood" src="~assets/img/cityfoodpng 2.png" />
@@ -17,7 +27,7 @@
       <v-btn icon class="d-sm-none mr-2" @click="drawer = !drawer"
         ><v-icon size="30">mdi-menu</v-icon></v-btn
       >
-    </v-app-bar>
+    </div>
     <v-navigation-drawer v-model="drawer" fixed temporary>
       <div class="nav__item">
         <div class="py-4">
