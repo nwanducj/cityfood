@@ -1,6 +1,12 @@
 <template>
-  <section class="b mx-auto">
-    <div class="text-center text__title my-4">How to Order</div>
+  <section class="b mx-auto mt-8">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-heading-7 text-center">
+          <h2 class="secondary--text">How to Order</h2>
+        </div>
+      </div>
+    </div>
     <v-row justify="center">
       <v-col cols="12" sm="6" md="4" lg="4" align="center" justify="center">
         <div class="card">
@@ -4781,8 +4787,8 @@ export default {
 .card {
   background-color: rgba(0, 168, 89, 0.08);
   border-radius: 10px;
-  width: 248px;
-  height: 256px;
+  width: 348px;
+  height: 356px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -4801,13 +4807,30 @@ export default {
   font-weight: bold;
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  // .card {
+  //   background-color: rgba(0, 168, 89, 0.08);
+  //   border-radius: 10px;
+  //   width: 248px;
+  //   height: 256px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   padding: 0 5px;
+  //   &__title {
+  //     font-weight: bold;
+  //   }
+  //   &__text {
+  //     font-weight: lighter;
+  //     margin: 10px;
+  //   }
+  // }
   .b {
     width: 80%;
   }
 }
 @media only screen and (min-width: 992px) {
   .b {
-    width: 60%;
+    width: 80%;
   }
 }
 </style>

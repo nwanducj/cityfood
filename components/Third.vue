@@ -1,15 +1,15 @@
 <template>
-  <section class="full c">
-    <div class="c__text">
-      <div class="c__title">Eat at your Convenience</div>
-      <div class="c__body">
+  <section class="c">
+    <div class="c__text content section-heading-7">
+      <h2 class="secondary--text">Eat at your Convenience</h2>
+      <p class="c__body">
         We are concerned abiut your convenience in getting your favourite meals
         and dishes from your ‘heartbeat’ restaurants close to you. You get on
         work, class, studies, workout, rest or even laundry, while we get on
         fixing and delivering your preference for breakfast, lunch and dinner.
         Easy to use and convenient for you. your family and friends. Try and see
         how we at CityFood would make you happy.
-      </div>
+      </p>
     </div>
     <div class="c__photo">
       <img src="~assets/img/girl.png" alt="" />
@@ -23,11 +23,16 @@ export default {
 </script>
 <style lang="scss" scoped>
 .c {
-  padding: 20px;
+  margin-top: 10%;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  &__photo {
+    // width: 50%;
+    margin: 0 0px 33px 0;
+  }
   &__body {
     padding: 0 0 0px 0;
   }
@@ -42,13 +47,13 @@ export default {
   }
 }
 img {
-  width: 80%;
-  height: 80%;
+  // width: 80%;
+  height: 100%;
   order: 1;
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .c {
-    padding: 60px;
+    padding: 40px;
     display: flex;
     flex-direction: row;
     &__photo {
@@ -67,15 +72,15 @@ img {
 }
 @media only screen and (min-width: 992px) {
   .c {
-    padding: 60px;
+    padding: 40px;
     display: flex;
     flex-direction: row;
     &__photo {
       width: 50%;
-      margin: 0 20px 0 0;
+      margin: 0 0 0 0;
     }
     &__text {
-      width: 30%;
+      width: 40%;
     }
   }
   img {
