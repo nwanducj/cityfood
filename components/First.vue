@@ -1,10 +1,7 @@
 <template>
-  <div>
+  <div style="background-color: #f8765a1f" class="f">
     <!--  -->
-    <div
-      class="hero-area-l-13 position-relative overflow-hidden"
-      style="background-color: #f8765a1f"
-    >
+    <div class="hero-area-l-13 position-relative overflow-hidden">
       <div class="container">
         <div class="row position-relative justify-content-center">
           <div
@@ -23,9 +20,7 @@
                 Our job is to satisfy you with delicious meals from your
                 favourite restaurants nearby, without moving an inch from your
                 sofa, office, school or even bus station.
-                <span class="secondary--text text-body-1 font-weight-bold"
-                  >Order Now!</span
-                >
+                <span class="secondary--text font-weight-bold">Order Now!</span>
               </p>
               <div class="apps-btn">
                 <a href="#" class="app-store"
@@ -68,18 +63,30 @@ export default {
   // position: absolute;
   top: 2%;
 }
+.f {
+  padding: 20px 20px;
+  // background-color: #1eb36d14;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .photo {
     // position: absolute;
     top: 2%;
   }
+  .f {
+    padding: 60px 10%;
+    margin: 0% auto;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .photo {
     position: absolute;
-    top: 2%;
+    top: 3%;
+  }
+  .f {
+    padding: 60px 10%;
+    margin: 0% auto;
   }
 }
 </style>

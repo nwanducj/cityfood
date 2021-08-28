@@ -4780,14 +4780,14 @@ export default {
 </script>
 <style lang="scss" scoped>
 .b {
-  padding: 20px 0;
+  padding: 60px 20px;
   overflow-x: hidden;
   //   width: 60%;
 }
 .card {
   background-color: rgba(0, 168, 89, 0.08);
   border-radius: 10px;
-  width: 348px;
+  width: 320px;
   height: 356px;
   display: flex;
   flex-direction: column;
@@ -4825,12 +4825,14 @@ export default {
   //   }
   // }
   .b {
-    width: 80%;
+    // width: 80%;
+    padding: 60px 10%;
   }
 }
 @media only screen and (min-width: 992px) {
   .b {
-    width: 80%;
+    // width: 80%;
+    padding: 60px 10%;
   }
 }
 </style>

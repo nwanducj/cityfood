@@ -2,8 +2,8 @@
   <section class="c">
     <div class="c__text content section-heading-7">
       <h2 class="secondary--text">Eat at your Convenience</h2>
-      <p class="c__body">
-        We are concerned abiut your convenience in getting your favourite meals
+      <p class="c__body" style="font-size: 1.3rem">
+        We are concerned about your convenience in getting your favourite meals
         and dishes from your ‘heartbeat’ restaurants close to you. You get on
         work, class, studies, workout, rest or even laundry, while we get on
         fixing and delivering your preference for breakfast, lunch and dinner.
@@ -23,12 +23,13 @@ export default {
 </script>
 <style lang="scss" scoped>
 .c {
-  margin-top: 10%;
-  padding: 40px 20px;
+  // margin-top: 10%;
+  padding: 60px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  // background-color: red;
   &__photo {
     // width: 50%;
     margin: 0 0px 33px 0;
@@ -53,7 +54,8 @@ img {
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .c {
-    padding: 40px;
+    // padding: 40px;
+    padding: 60px 10%;
     display: flex;
     flex-direction: row;
     &__photo {
@@ -72,15 +74,19 @@ img {
 }
 @media only screen and (min-width: 992px) {
   .c {
-    padding: 40px;
+    // padding: 40px;
+    padding: 60px 10%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     &__photo {
       width: 50%;
       margin: 0 0 0 0;
     }
     &__text {
-      width: 40%;
+      width: 50%;
+      // background-color: red;
     }
   }
   img {

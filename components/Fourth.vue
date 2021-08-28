@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="d">
     <div
       class="testimonial-area-l-13 position-relative overflow-hidden z-index-1"
     >
@@ -19,7 +19,7 @@
               data-aos-duration="800"
               data-aos-once="true"
             >
-              <div class="col-xl-4 col-md-6 col-sm-8">
+              <div class="col-xl-4 col-md-6 col-sm-8 mx-auto">
                 <div class="testimonial-card bg-white">
                   <div class="mb-n2">
                     <img src="~assets/img/shopping.png" alt="" />
@@ -33,7 +33,7 @@
                         v-model="value"
                         dense
                         size="18"
-                        color="secondary"
+                        color="#00A859"
                         readonly
                       ></v-rating>
                     </div>
@@ -45,7 +45,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-md-6 col-sm-8">
+              <div class="col-xl-4 col-md-6 col-sm-8 mx-auto">
                 <div class="testimonial-card bg-white">
                   <div class="mb-n2">
                     <img src="~assets/img/shawarma.png" alt="" />
@@ -59,7 +59,7 @@
                         v-model="value"
                         dense
                         size="18"
-                        color="secondary"
+                        color="#00A859"
                         readonly
                       ></v-rating>
                     </div>
@@ -71,7 +71,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-md-6 col-sm-8">
+              <div class="col-xl-4 col-md-6 col-sm-8 mx-auto">
                 <div class="testimonial-card bg-white">
                   <div class="mb-n2">
                     <img src="~assets/img/food.png" alt="" />
@@ -85,7 +85,7 @@
                         v-model="value"
                         dense
                         size="18"
-                        color="secondary"
+                        color="#00A859"
                         readonly
                       ></v-rating>
                     </div>
@@ -97,7 +97,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-md-6 col-sm-8">
+              <div class="col-xl-4 col-md-6 col-sm-8 mx-auto">
                 <div class="testimonial-card bg-white">
                   <div class="mb-n2">
                     <img src="~assets/img/egusi.png" alt="" />
@@ -111,7 +111,7 @@
                         v-model="value"
                         dense
                         size="18"
-                        color="secondary"
+                        color="#00A859"
                         readonly
                       ></v-rating>
                     </div>
@@ -143,14 +143,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 .d {
-  padding: 40px 20px 0 20px;
-  width: 90%;
-  margin: 0 auto;
+  padding: 0 5% 0 5%;
 }
-// img {
-//   width: 100%;
-//   height: 180px;
-// }
 .card {
   width: 90%;
   height: 256px;
@@ -167,15 +161,13 @@ export default {
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .d {
-    padding: 40px 20px;
-    width: 90%;
+    padding: 0px 10%;
     margin: 0 auto;
   }
 }
 @media only screen and (min-width: 992px) {
   .d {
-    padding: 40px 20px;
-    width: 80%;
+    padding: 0px 10%;
     margin: 0 auto;
   }
 }

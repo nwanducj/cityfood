@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="e">
     <div class="content-area-l-13-2 position-relative overflow-hidden">
       <div class="container">
         <div class="row justify-content-center">
@@ -15,7 +15,7 @@
                     "
                   >
                     <div
-                      class="col-lg-6 col-md-8 col-sm-10"
+                      class="col-lg-6 col-md-6 col-sm-6 big-phone"
                       data-aos="fade-right"
                       data-aos-duration="800"
                       data-aos-once="true"
@@ -40,18 +40,13 @@
                           food delivery service
                         </h2>
                         <div class="d-flex text-caption">
-                          <div class="photo__holder">
-                            <img
-                              src="~assets/img/qr.png"
-                              alt=""
-                              class="qr"
-                              style="display: inline-block; width: 100%"
-                            />
-                          </div>
+                          <img src="~assets/img/qr.png" alt="" class="qr" />
                           <div class="ml-4">
                             <p>
-                              Use your Phone camera to scan and download City
-                              Food App <br />
+                              <span
+                                >Use your Phone camera to scan and download City
+                                Food App </span
+                              ><br />
                             </p>
                             <p class="mt-4">
                               <span
@@ -88,12 +83,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .e {
-  margin-top: 30%;
-  padding: 20px 20px 0 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 60px 20px;
 }
 .download {
   font-size: 1.6rem;
@@ -112,15 +102,23 @@ export default {
   width: 100%;
 }
 .qr {
-  width: 120px;
-  height: 120px;
+  width: 100%;
+  height: 100%;
+}
+.big-phone {
+  display: none;
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .e {
-    flex-direction: column;
-    margin: 0px;
-    width: 80%;
-    justify-content: center;
+    flex-direction: row;
+    padding: 60px 10% 0 10%;
+    margin: 0% auto;
+  }
+  .qr {
+    width: 30%;
+  }
+  .big-phone {
+    display: none;
   }
   .photo {
     display: block;
@@ -149,10 +147,17 @@ export default {
   .download {
     font-size: 2rem;
   }
+  .big-phone {
+    display: block;
+  }
+  .qr {
+    width: 30%;
+  }
   .e {
     flex-direction: row;
-    margin: 0px;
-    width: 80%;
+    padding: 60px 10% 0 10%;
+    margin: 0% auto;
+    // width: 80%;
   }
   .photo {
     display: block;
