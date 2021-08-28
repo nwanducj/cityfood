@@ -24,7 +24,7 @@ export default {
 <style lang="scss" scoped>
 .c {
   // margin-top: 10%;
-  padding: 60px 20px;
+  padding: 60px 8%;
   display: flex;
   flex-direction: column;
   align-items: center;

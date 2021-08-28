@@ -51,7 +51,7 @@ export default {
   font-size: 1.4rem;
 }
 .f {
-  padding: 60px 20px;
+  padding: 60px 8%;
   background-color: #1eb36d14;
 }
 .newsletter {

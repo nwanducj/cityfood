@@ -33,6 +33,7 @@
                         v-model="value"
                         dense
                         size="18"
+                        background-color="secondary"
                         color="#00A859"
                         readonly
                       ></v-rating>
@@ -61,6 +62,7 @@
                         size="18"
                         color="#00A859"
                         readonly
+                        background-color="secondary"
                       ></v-rating>
                     </div>
                     <div class="card__location d-flex align-items my-2">
@@ -84,6 +86,7 @@
                       <v-rating
                         v-model="value"
                         dense
+                        background-color="secondary"
                         size="18"
                         color="#00A859"
                         readonly
@@ -112,6 +115,7 @@
                         dense
                         size="18"
                         color="#00A859"
+                        background-color="secondary"
                         readonly
                       ></v-rating>
                     </div>
