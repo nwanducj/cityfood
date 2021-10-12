@@ -1,6 +1,5 @@
 <template>
   <div style="background-color: #f8765a1f" class="f">
-    <!--  -->
     <div class="hero-area-l-13 position-relative overflow-hidden">
       <div class="container">
         <div class="row position-relative justify-content-center">
@@ -12,8 +11,8 @@
           >
             <div class="content">
               <h1>
-                The Food is for the
-                <span class="primary--text font-weight-bold">City</span>
+                Get your food
+                <span class="primary--text font-weight-bold">on the Go!</span>
               </h1>
 
               <p>
@@ -24,10 +23,10 @@
               </p>
               <div class="apps-btn">
                 <a href="#" class="app-store"
-                  ><img src="~assets/img/app-store.png" alt=""
+                  ><img src="~assets/img/google.png" alt=""
                 /></a>
                 <a href="#" class="app-store"
-                  ><img src="~assets/img/google-play.png" alt=""
+                  ><img src="~assets/img/apple.png" alt=""
                 /></a>
               </div>
             </div>
@@ -44,9 +43,7 @@
           </div>
         </div>
       </div>
-      <!-- <div class="bg-shape-13"></div> -->
     </div>
-    <!--  -->
   </div>
 </template>
 <script>
@@ -60,17 +57,14 @@ export default {
   color: $primary;
 }
 .photo {
-  // position: absolute;
   top: 2%;
 }
 .f {
   padding: 20px 20px;
-  // background-color: #1eb36d14;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .photo {
-    // position: absolute;
     top: 2%;
   }
   .f {

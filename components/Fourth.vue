@@ -9,7 +9,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="section-heading-7 text-center">
-                  <h2 class="secondary--text">Our Vendors</h2>
+                  <h2 class="black--text">Become Our Vendor</h2>
                 </div>
               </div>
             </div>
@@ -28,7 +28,7 @@
                     <div
                       class="d-flex align-items-center justify-space-between"
                     >
-                      <div class="card__name">ShopRite</div>
+                      <div class="card__name">Avaranda Eatery</div>
                       <v-rating
                         v-model="value"
                         dense
@@ -55,7 +55,7 @@
                     <div
                       class="d-flex align-items-center justify-space-between"
                     >
-                      <div class="card__name">Handes Kitchen</div>
+                      <div class="card__name">Sharwama King</div>
                       <v-rating
                         v-model="value"
                         dense
@@ -68,7 +68,7 @@
                     <div class="card__location d-flex align-items my-2">
                       <v-icon size="18" color="black"
                         >mdi-map-marker-outline</v-icon
-                      >5, Independence Layout Enugu
+                      >25, Independence Layout Enugu
                     </div>
                   </div>
                 </div>
@@ -82,7 +82,7 @@
                     <div
                       class="d-flex align-items-center justify-space-between"
                     >
-                      <div class="card__name">Licks & Chops</div>
+                      <div class="card__name">Handes Bakery</div>
                       <v-rating
                         v-model="value"
                         dense
@@ -95,7 +95,7 @@
                     <div class="card__location d-flex align-items my-2">
                       <v-icon size="18" color="black"
                         >mdi-map-marker-outline</v-icon
-                      >5, Independence Layout Enugu
+                      >34, New Haven, Enugu.
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@
                     <div
                       class="d-flex align-items-center justify-space-between"
                     >
-                      <div class="card__name">Kilimanjaro</div>
+                      <div class="card__name">Griollet Kitchen</div>
                       <v-rating
                         v-model="value"
                         dense
@@ -122,7 +122,7 @@
                     <div class="card__location d-flex align-items my-2">
                       <v-icon size="18" color="black"
                         >mdi-map-marker-outline</v-icon
-                      >5, Independence Layout Enugu
+                      >67, Achara Layout, Holy Ghost Town, Enugu.
                     </div>
                   </div>
                 </div>

@@ -10,8 +10,11 @@
         style="width: 80%"
       >
         <div class="mx-8" @click="gotoThird">About</div>
-        <div class="mx-8" @click="gotoSixith">Contact</div>
-        <div class="mx-8" @click="gotoSixith">Partnership</div>
+        <div class="mx-8" @click="gotoFourth">Vendors</div>
+        <div class="mx-8" @click="gotoSixth">Partnership</div>
+        <v-btn class="mx-8 text-none" color="primary" @click="gotoSixth"
+          >Contact</v-btn
+        >
       </div>
       <v-spacer class="d-sm-none"></v-spacer>
       <v-btn icon class="d-sm-none mr-2" @click="drawer = !drawer"
@@ -32,11 +35,11 @@
           </v-list-item>
 
           <v-list-item>
-            <v-list-item-title @click="gotoSixith">Contact</v-list-item-title>
+            <v-list-item-title @click="gotoSixth">Contact</v-list-item-title>
           </v-list-item>
 
           <v-list-item>
-            <v-list-item-title @click="gotoSixith"
+            <v-list-item-title @click="gotoSixth"
               >Partnership</v-list-item-title
             >
           </v-list-item>
@@ -47,10 +50,14 @@
     <First />
     <Second />
     <Third id="myRef3" />
-    <Fourth />
+    <Fourth id="myRef4" />
     <Fifth />
     <Sixth id="myRef" />
-    <Footer />
+    <Footer
+      :gotoSixth="gotoSixth"
+      :gotoThird="gotoThird"
+      :gotoFourth="gotoFourth"
+    />
   </div>
 </template>
 <script>
@@ -63,12 +70,16 @@ export default {
     };
   },
   methods: {
-    gotoSixith() {
+    gotoSixth() {
       document.getElementById("myRef").scrollIntoView();
       this.drawer = false;
     },
     gotoThird() {
       document.getElementById("myRef3").scrollIntoView();
+      this.drawer = false;
+    },
+    gotoFourth() {
+      document.getElementById("myRef4").scrollIntoView();
       this.drawer = false;
     },
   },

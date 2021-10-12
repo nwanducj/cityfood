@@ -14,8 +14,24 @@
         <v-col cols="6" sm="4">
           <div>
             <div class="title">Discover</div>
-            <div>For Vendors</div>
-            <div>Partnerships</div>
+            <div>
+              <v-btn
+                text
+                x-small
+                class="text-none white--text pa-0"
+                @click="$emit('gotoFourth')"
+                >For Vendors</v-btn
+              >
+            </div>
+            <div>
+              <v-btn
+                text
+                x-small
+                class="text-none white--text pa-0"
+                @click="$emit('gotoSixth')"
+                >Partnerships</v-btn
+              >
+            </div>
           </div>
         </v-col>
         <v-col cols="6" sm="4">
@@ -23,19 +39,29 @@
             <div class="title">Follow us</div>
             <div class="d-flex align-items">
               <v-icon color="white" size="18" class="mr-2">mdi-facebook</v-icon
-              >Facebook
+              ><a href="https://www.facebook.com/cityfood_ng" target="blank"
+                >Facebook</a
+              >
             </div>
             <div>
               <v-icon color="white" size="18" class="mr-2">mdi-twitter</v-icon
-              >Twitter
+              ><a href="https://www.twitter.com/cityfood_ng" target="blank"
+                >Twitter</a
+              >
             </div>
             <div>
               <v-icon color="white" size="18" class="mr-2">mdi-linkedin</v-icon
-              >LinkedIn
+              ><a
+                href="https://www.linkedin.com/company/cityfood-ng"
+                target="blank"
+                >LinkedIn</a
+              >
             </div>
             <div>
               <v-icon color="white" size="18" class="mr-2">mdi-instagram</v-icon
-              >Instagram
+              ><a href="https://www.instagram.com/cityfood_ng" target="blank"
+                >Instagram</a
+              >
             </div>
           </div>
         </v-col>
@@ -54,6 +80,9 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+a {
+  color: white;
+}
 footer {
   background-color: lighten(black, 53%);
   color: white;
